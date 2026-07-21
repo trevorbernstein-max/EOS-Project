@@ -2,6 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #f5f7fb;
     color: #2c3e50;
+
 }
 
 .section {
@@ -78,21 +79,21 @@ button {
     color: #555;
 }
 
-ol {
+.section ol {
     margin-left: 40px;
     margin-top: 13px;
 }
 
-ul {
+.section ul {
     margin-left: 40px;
     margin-top: 13px;
 }
 
-li {
+.section li {
     margin-bottom: 20px;
 }
 
-ul li {
+.process-section ul li {
     list-style: none;
     background-color: white;
     margin: 20px 0px;
@@ -132,8 +133,68 @@ ul li {
     background:#e7e7e7;
 }
 
-.section #processimg {
+#process-img {
     width: 150px;
+
+}
+
+.process-section #processimg{
+    display: flex;
+    justify-content: end;
+}
+
+.process-section {
+    width: 80%;
+}
+
+.process-section h2 {
+    font-size: 40px;
+    color: #5791e2;
+    margin-bottom: 20px;
+}
+
+.process-section h3 {
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.process-section h4 {
+    font-size: 25px;
+    margin-bottom: 25px;
+    color: #555;
+}
+
+nav {
+    padding: 5px 0px;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    background: white;
+    border-bottom: 1px solid;
+
+
+}
+
+nav ul {
+
+
 }
 
 
+nav li {
+    font-size: 20px;
+    display: inline-block;
+    padding: 15px 50px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #2c3e50;
+}
+
+nav a:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
