@@ -1,0 +1,131 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f7fb;
+    color: #2c3e50;
+}
+
+.section {
+    width: 80%;
+}
+
+#headline {
+    text-align: center;
+    padding: 120px 20px 60px;
+}
+
+#headline h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+#headline p {
+    font-size: 22px;
+    margin: auto;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px 0 80px;
+}
+
+button {
+    padding: 13px 45px;
+    border: none;
+    font-size: 17px;
+    border-radius: 45px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#report-button {
+    background-color: #3a7bd5;
+    color: white;
+}
+
+#report-button:hover {
+    background-color: #2e63ad;
+}
+
+
+
+#learn-button {
+    background:white;
+    color:#3a7bd5;
+}
+
+#learn-button:hover {
+    background:#e9e9e9;
+}
+
+.section h2 {
+    font-size: 40px;
+    color: #5791e2;
+    margin-bottom: 20px;
+}
+
+.section h3 {
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.section h4 {
+    font-size: 25px;
+    margin-bottom: 25px;
+    color: #555;
+}
+
+ol {
+    margin-left: 40px;
+    margin-top: 13px;
+}
+
+ul {
+    margin-left: 40px;
+    margin-top: 13px;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+ul li {
+    list-style: none;
+    background-color: white;
+    margin: 20px 0px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+#action-thing {
+    text-align: center;
+    background:#3a7bd5;
+    color: white;
+    padding: 100px 25px;
+    margin-top: 100px;
+}
+
+#action-thing h2 {
+    color: white;
+    font-size: 50px;
+}
+
+#action-thing p{
+    margin:20px auto;
+    font-size:25px;
+}
+
+#action-thing h3 {
+    margin: 30px;
+    font-size: 30px;
+}
+
+#action-thing button {
+    background-color: white;
+    color:#2c2c2c;
+}
+
+#action-thing button:hover {
+    background:#e7e7e7;
+}
