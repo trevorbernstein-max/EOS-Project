@@ -46,6 +46,8 @@ button {
 
 #report-button:hover {
     background-color: #2e63ad;
+
+    
 }
 
 
@@ -129,3 +131,9 @@ ul li {
 #action-thing button:hover {
     background:#e7e7e7;
 }
+
+.section #processimg {
+    width: 150px;
+}
+
+
