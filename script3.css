@@ -14,23 +14,6 @@ h1 {
     font-size: 30px;
 }
 
-#imageuploadbox {
-    padding: 200px 250px;
-    border-color: black;
-    border: 2px dashed;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    border-radius: 10%;
-    font-size: 30px;
-    font-family: sans-serif;
-    font-weight: bold;
-
-}
-
-#imageuploadbox:hover {
-    cursor: pointer;
-}
 
 
 nav {
@@ -67,3 +50,31 @@ nav a:hover {
     cursor: pointer;
     font-weight: bold;
 }
+
+
+
+
+.custom-upload {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.upload-box {
+  display: inline-block;
+  padding: 120px 200px;
+  background-color: #e7ebef;
+  color: #2c3e50;
+  border: 2px dashed;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#file-upload {
+  display: none;
+}
+
+
+
