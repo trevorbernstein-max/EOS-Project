@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<div id="navbar">
+
     <nav>
         <ul>
             <li>
@@ -22,26 +22,59 @@
             </li>
         </ul>
     </nav>
+
+
+<div id="headliner">
+    <h1>Report an Issue</h1>
+    <p id="uploadtitle">Upload an image of your problem!</p>
+</div>
+
+<div class="upload-container">
+        <label for="imagePicker" class="upload-label">
+            <img id="imagePreview" src="" alt="">
+        </label>
+        <input type="file" id="imagePicker" class="hidden-file-input" accept="image/*">
+    </div>
+
+
+
+
+
+<input id="desctxt" type="text" placeholder="Enter description here...">
+
+
+
+<!-- https://stackoverflow.com/questions/76684999/how-can-i-make-a-drop-down-menu-in-html -->
+
+<div id="typeslc" >
+    <label for="features">Choose a problem type:</label>
+        <select name="features">
+        <option value="problem-default">...</option>
+        <option value="problem1">Infrastructure</option>
+        <option value="problem2">Lighting</option>
+        <option value="problem3">Cleaning</option>
+        <option value="problem4">Health</option>
+        <option value="problem5">Environment</option>
+    </select>
 </div>
 
 
-<h1>Report an Issue</h1>
-
-<p id="uploadtitle">Upload an image of your problem!</p>
 
 
-<div class="custom-upload">
-  <label id="upload-lable" class="upload-box">Upload
-    <input type="file" id="file-upload">
-  </label>
 
-  <img id="image-preview" src="" alt="Uploaded Preview" style="display: none;">
+
+
+
+
+
+<div id="action-thing">
+    <h2>Every report helps better your community.</h2>
+    <p>Whether its a pothole, broken streetlamp, or simple graffiti, your report can make a difference.</p>
+    <h3>Start reporting today.</h3>
+    <form action="product.html">
+        <button>Report an Issue</button>
+    </form>
 </div>
-
-
-
-
-
 
 
 

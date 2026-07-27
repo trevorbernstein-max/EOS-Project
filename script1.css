@@ -2,6 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #f5f7fb;
     color: #2c3e50;
+    margin: 0 auto;
 
 }
 
@@ -54,7 +55,7 @@ button {
 
 
 #learn-button {
-    background:white;
+    background: white;
     color:#3a7bd5;
 }
 
@@ -66,17 +67,22 @@ button {
     font-size: 40px;
     color: #5791e2;
     margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 .section h3 {
     margin-bottom: 15px;
     font-size: 30px;
+    margin-left: 20px;
+
 }
 
 .section h4 {
     font-size: 25px;
     margin-bottom: 25px;
     color: #555;
+    margin-left: 20px;
+
 }
 
 .section ol {
@@ -127,6 +133,8 @@ button {
 #action-thing button {
     background-color: white;
     color:#2c2c2c;
+    padding: 15px;
+    border-radius: 5px;
 }
 
 #action-thing button:hover {
@@ -164,6 +172,26 @@ button {
     color: #555;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 nav {
     padding: 5px 0px;
     text-align: center;
@@ -172,11 +200,18 @@ nav {
     z-index: 100;
     background: white;
     border-bottom: 1px solid;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
 
 
 }
 
 nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: start;
 
 
 }
@@ -186,15 +221,50 @@ nav li {
     font-size: 20px;
     display: inline-block;
     padding: 15px 50px;
+    align-items: center;
 
 }
 
 nav a {
     text-decoration: none;
     color: #2c3e50;
+    padding: 10px 30px;
+    font-size: larger;
+
+
+
+
+    
 }
 
 nav a:hover {
     cursor: pointer;
-    font-weight: bold;
+    font-weight: bolder;
 }
+
+nav ul img {
+    border: 2px solid;
+    width: 200px;
+}
+
+.main-nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 170px;
+}
+
+#logo {
+    width: 125px;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+
+
+}
+

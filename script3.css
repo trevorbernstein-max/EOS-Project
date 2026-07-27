@@ -2,6 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #f5f7fb;
     color: #2c3e50;
+    margin: 0 auto;
 }
 
 h1 {
@@ -12,6 +13,43 @@ h1 {
 #uploadtitle {
     text-align: center;
     font-size: 30px;
+}
+
+
+#action-thing {
+    position: relative;
+    top: 1000px;
+    text-align: center;
+    background:#3a7bd5;
+    color: white;
+    padding: 100px 25px;
+    margin-top: 100px;
+}
+
+#action-thing h2 {
+    color: white;
+    font-size: 50px;
+}
+
+#action-thing p{
+    margin:20px auto;
+    font-size:25px;
+}
+
+#action-thing h3 {
+    margin: 30px;
+    font-size: 30px;
+}
+
+#action-thing button {
+    background-color: white;
+    color:#2c2c2c;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#action-thing button:hover {
+    background:#e7e7e7;
 }
 
 
@@ -54,27 +92,73 @@ nav a:hover {
 
 
 
-.custom-upload {
-  display: flex;
-  justify-content: center;
-  width: 100%;
+.upload-container {
+width: 300px;
+height: 300px;
+position: absolute;
+left: 50%;
+transform: translate(-50%);
 }
 
-
-.upload-box {
-  display: inline-block;
-  padding: 120px 200px;
-  background-color: #e7ebef;
-  color: #2c3e50;
-  border: 2px dashed;
-  border-radius: 6px;
-  cursor: pointer;
-  text-align: center;
+.upload-label {
+display: block;
+width: 100%;
+height: 100%;
+cursor: pointer;
+border: 2px dashed #aaa;
+border-radius: 8px;
+overflow: hidden;
+box-sizing: border-box;
 }
 
-#file-upload {
-  display: none;
+.upload-label:hover {
+border-color: #007bff;
 }
 
+.upload-label img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
 
+.hidden-file-input {
+position: absolute;
+width: 1px;
+height: 1px;
+padding: 0;
+margin: -1px;
+overflow: hidden;
+clip: rect(0, 0, 0, 0);
+border: 0;
+}
+
+#imagepreview {
+    text-align: center;
+}
+
+#desctxt {
+    width: 1600px;
+    position: relative;
+    top: 400px;
+    left: 30px;
+    padding-top: 10px;
+    padding-bottom: 120px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+#typeslc {
+    position: relative;
+    top: 500px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+#typeslc select {
+    font-size: 20px;
+    padding: 20px 100px; 
+    text-align: center;
+}
 
