@@ -208,23 +208,6 @@ nav {
 
 }
 
-nav ul {
-    display: flex;
-    align-items: center;
-    justify-content: start;
-
-
-}
-
-
-nav li {
-    font-size: 20px;
-    display: inline-block;
-    padding: 15px 50px;
-    align-items: center;
-
-}
-
 nav a {
     text-decoration: none;
     color: #2c3e50;
@@ -257,14 +240,11 @@ nav ul img {
 }
 
 #logo {
-    width: 125px;
-    height: 125px;
+    width: 100px;
+    height: 100px;
     display: flex;
     justify-content: center;
-    padding-bottom: 30px;
     padding-left: 30px;
-    padding-top: 30px;
-
 
 }
 

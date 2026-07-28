@@ -9,19 +9,17 @@
 <body>
 
 
-    <nav>
-        <ul>
-            <li>
-                <a href="landing.html">Home</a>
-            </li>
-            <li>
-                <a href="product.html">MVP</a>
-            </li>
-            <li>
-                <a href="about.html">About</a>
-            </li>
-        </ul>
-    </nav>
+<nav>
+    
+    <img id="logo" src="logo.png" alt="logo of the company">
+    <div class="main-nav">
+        <a href="landing.html">Home</a>
+        <a href="product.html">MVP</a>
+        <a href="about.html">About</a>
+    </div>
+</nav>
+
+
 
 
 <div id="headliner">
@@ -40,8 +38,7 @@
 
 
 
-<input id="desctxt" type="text" placeholder="Enter description here...">
-
+<textarea id="desctxt" name="feedback" rows="6" cols="40" placeholder="Enter description here..."></textarea>
 
 
 <!-- https://stackoverflow.com/questions/76684999/how-can-i-make-a-drop-down-menu-in-html -->
@@ -76,11 +73,54 @@
     </form>
 </div>
 
+<button id="issuesubmit">Submit</button>
 
 
+<div>
+    <h1 id="headliner2">Currently Reported Problems</h1>
+    <p id="uploadtitle">A list of currently reported problems.</p>
+</div>
 
 
+<!-- https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_intro -->
+<table>
+  <tr>
+    <th>Description</th>
+    <th>Status</th>
+  </tr>
+  <tr>
+    <td>Deep pothole near crosswalk — Elm Street & 4th Avenue</td>
+    <td class="status">In Progress (Public Works crew scheduled) <div id="yellow"></div> </td>
+  </tr>
+  <tr>
+    <td>Broken streetlight / dark intersection — Oak Lane, outside Community Center</td>
+    <td class="status">Pending (Awaiting utility company response) <div id="yellow"></div> </td>
+  </tr>
+  <tr>
+    <td>Overgrown tree branches blocking stop sign — Maple Drive & Pine Street</td>
+    <td class="status">Completed (Pruned on 10/12) <div id="green"></div> </td>
+  </tr>
+  <tr>
+    <td>Damaged park bench / playground equipment — Riverside Park, North Playgroundg</td>
+    <td class="status"> Not Started (Assigned to Parks & Rec) <div id="red"></div> </td>
+  </tr>
+  <tr>
+    <td>Faded pedestrian crosswalk markings — Main Street, in front of Elementary School</td>
+    <td class="status">Under Review (Budget approval pending) <div id="yellow"></div> </td>
+  </tr>
+  <tr>
+    <td>Illegal dumping / abandoned trash — Alleyway behind 700 Block of Cedar Street</td>
+    <td class="status">Completed (Site cleared and inspected) <div id="green"></div> </td>
+  </tr>
+</table>
 
+<div>
+  <h1 id="loctit">Locations</h1>
+  <p id="uploadtitle">A live map of currently reported locations.</p>
+</div>
+
+
+<img id="map" src="livemap.png" alt="map">
 
 <script src="java.js"></script>
 </body>
