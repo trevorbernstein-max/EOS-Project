@@ -83,36 +83,45 @@
 
 
 <!-- https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_intro -->
-<table>
-  <tr>
-    <th>Description</th>
-    <th>Status</th>
-  </tr>
-  <tr>
-    <td>Deep pothole near crosswalk — Elm Street & 4th Avenue</td>
-    <td class="status">In Progress (Public Works crew scheduled) <div id="yellow"></div> </td>
-  </tr>
-  <tr>
-    <td>Broken streetlight / dark intersection — Oak Lane, outside Community Center</td>
-    <td class="status">Pending (Awaiting utility company response) <div id="yellow"></div> </td>
-  </tr>
-  <tr>
-    <td>Overgrown tree branches blocking stop sign — Maple Drive & Pine Street</td>
-    <td class="status">Completed (Pruned on 10/12) <div id="green"></div> </td>
-  </tr>
-  <tr>
-    <td>Damaged park bench / playground equipment — Riverside Park, North Playgroundg</td>
-    <td class="status"> Not Started (Assigned to Parks & Rec) <div id="red"></div> </td>
-  </tr>
-  <tr>
-    <td>Faded pedestrian crosswalk markings — Main Street, in front of Elementary School</td>
-    <td class="status">Under Review (Budget approval pending) <div id="yellow"></div> </td>
-  </tr>
-  <tr>
-    <td>Illegal dumping / abandoned trash — Alleyway behind 700 Block of Cedar Street</td>
-    <td class="status">Completed (Site cleared and inspected) <div id="green"></div> </td>
-  </tr>
-</table>
+<div id="probtable">
+  <table>
+    <tr>
+      <th id="desccol">Description</th>
+      <th id="probcol">Problem Type</th>
+      <th id="statcol">Status</th>
+    </tr>
+    <tr>
+      <td> <a href="t1.html">Deep pothole near crosswalk — Elm Street & 4th Avenue </a></td>
+      <td>Infrastructure</td>
+      <td class="status">In Progress (Public Works crew scheduled) <div id="yellow"></div> </td>
+    </tr>
+    <tr>
+      <td> <a href="t2.html">Broken streetlight / dark intersection — Oak Lane, outside Community Center </a></td>
+      <td>Lighting</td>
+      <td class="status">Pending (Awaiting utility company response) <div id="yellow"></div> </td>
+    </tr>
+    <tr>
+      <td> <a href="t3.html">Overgrown tree branches blocking stop sign — Maple Drive & Pine Street </a></td>
+      <td>Environment/Infrastructure</td>
+      <td class="status">Completed (Pruned on 10/12) <div id="green"></div> </td>
+    </tr>
+    <tr>
+      <td> <a href="t4.html">Damaged park bench / playground equipment — Riverside Park, North Playgroundg </a></td>
+      <td>Infrastructure</td>
+      <td class="status"> Not Started (Assigned to Parks & Rec) <div id="red"></div> </td>
+    </tr>
+    <tr>
+      <td> <a href="t5.html">Faded pedestrian crosswalk markings — Main Street, in front of Elementary School </a></td>
+      <td>Infrastructure</td>
+      <td class="status">Under Review (Budget approval pending) <div id="yellow"></div> </td>
+    </tr>
+    <tr>
+      <td> <a href="t6.html">Illegal dumping / abandoned trash — Alleyway behind 700 Block of Cedar Street </a></td>
+      <td>Cleaning</td>
+      <td class="status">Completed (Site cleared and inspected) <div id="green"></div> </td>
+    </tr>
+  </table>
+</div>
 
 <div>
   <h1 id="loctit">Locations</h1>
@@ -122,6 +131,6 @@
 
 <img id="map" src="livemap.png" alt="map">
 
-<script src="java.js"></script>
+<script src="productjava.js"></script>
 </body>
 </html>
