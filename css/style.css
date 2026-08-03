@@ -1,0 +1,85 @@
+body {
+    background-image: url("../images/bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Poppins, sans-serif;
+    margin-left: 50px;
+
+
+}
+
+#theimg {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 8px;
+    width: 900px;
+
+}
+
+.content {
+    background-color: #f5f7fb;
+    width: 1000px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    height: 2000px;
+}
+
+#c1 {
+    position: absolute;
+    top: 850px;
+    left: 20px;
+    border-radius: 15px;
+    background-color: rgb(236, 235, 235);
+    padding: 15px;
+}
+
+#c2 {
+    position: absolute;
+    top: 1000px;
+    left: 20px;
+    border-radius: 15px;
+    background-color: rgb(236, 235, 235);
+    padding: 15px;
+}
+
+#c3 {
+    position: absolute;
+    top: 1150px;
+    left: 20px;
+    border-radius: 15px;
+    background-color: rgb(236, 235, 235);
+    padding: 15px;
+}
+
+#pfp1p1 {
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 800px;
+    margin-left: 20px;
+
+}
+
+#pfp2p1 {
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 950px;
+    margin-left: 20px;
+
+
+}
+
+#pfp3p1 {
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 1100px;
+    margin-left: 20px;
+
+
+}
