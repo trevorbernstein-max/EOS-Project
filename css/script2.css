@@ -2,7 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #f5f7fb;
     color: #2c3e50;
-    margin: 0 auto;
+    margin: 0;
 }
 
 nav {
@@ -12,10 +12,11 @@ nav {
     top: 0px;
     z-index: 100;
     background: white;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #ddd;
     display: flex;
     justify-content: center;
     gap: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 
 
 
@@ -35,7 +36,8 @@ nav a {
 
 nav a:hover {
     cursor: pointer;
-    font-weight: bolder;
+    font-weight: bold;
+    color: #3a7bd5;
 }
 
 nav ul img {
@@ -81,14 +83,17 @@ nav ul img {
     font-size: 40px;
     color: #5791e2;
     margin-bottom: 20px;
-    margin-left: 20px;
 }
 
 #aboutsections p {
-    margin-left: 45px;
+    font-size: 25px;
     background-color: white;
-    border-radius: 15px;
-    padding: 20px 15px;
+    border-radius: 20px;
+    padding: 25px 30px;
+    margin: 30px 45px;
+    line-height: 1.7;
+    color: #444;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
 }
 
 #action-thing {
@@ -119,14 +124,10 @@ nav ul img {
 #action-thing button {
     background-color: white;
     color:#2c2c2c;
-    padding: 15px;
-    border-radius: 5px;
+    padding: 15px 30px;
+    border-radius: 8px;
 }
 
 #action-thing button:hover {
     background:#e7e7e7;
-}
-
-#aboutsections p {
-    font-size: 25px;
 }

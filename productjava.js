@@ -32,7 +32,7 @@ function add() {
 
     cell1.textContent = textValue; 
     cell2.textContent = selectedoption; 
-    cell3.textContent = "Issue Pending Approval";  
+    cell3.innerHTML = 'Issue Pending Approval <span id="yellow"></span>';
 
     desc.value = ""; 
     selectMenu.value = "problem-default"; 
