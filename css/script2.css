@@ -131,3 +131,7 @@ nav ul img {
 #action-thing button:hover {
     background:#e7e7e7;
 }
+
+#imglink {
+    margin-left: -40px;
+}

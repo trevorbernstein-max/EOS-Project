@@ -1,0 +1,154 @@
+.Error-input::placeholder {
+    color: red;
+    opacity: 1;
+
+}
+
+nav {
+    padding: 5px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: white;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+nav a {
+    text-decoration: none;
+    color: #2c3e50;
+    padding: 10px 30px;
+    font-size: larger;
+}
+
+nav a:hover {
+    font-weight: bold;
+    color: #3a7bd5;
+}
+
+nav ul img {
+    border: 2px solid;
+    width: 200px;
+}
+
+.main-nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 170px;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #1e88e5, #64b5f6);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    background: white;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+}
+
+#logo {
+    height: 55px;
+}
+
+.main-nav {
+    display: flex;
+    gap: 30px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #1976d2;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.main-nav a:hover {
+    color: #0d47a1;
+}
+
+#login-thing {
+    width: 380px;
+    background: white;
+    margin: auto;
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#login-thing h2 {
+    color: #1976d2;
+    text-align: center;
+}
+
+#login-thing p {
+    color: #666;
+    text-align: center;
+}
+
+#login-thing input {
+    padding: 15px;
+    font-size: 16px;
+    border: 2px solid #bbdefb;
+    border-radius: 10px;
+    outline: none;
+    transition: 0.3s;
+}
+
+#login-thing input:focus {
+    border-color: #2196f3;
+    box-shadow: 0 0 8px rgba(33, 150, 243, 0.3);
+}
+
+#loginbtn {
+    padding: 15px;
+    background: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#loginbtn:hover {
+    background: #1976d2;
+}
+
+
+#imglink {
+    margin-left: -40px;
+}

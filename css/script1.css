@@ -232,3 +232,18 @@ nav ul img {
     justify-content: center;
     padding-left: 30px;
 }
+
+#loginbutton {
+    text-decoration: none;
+    color: black;
+}
+
+#logout {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#imglink {
+    margin-left: -40px;
+}
