@@ -53,6 +53,9 @@ function searchLocation() {
 
     let search = encodeURIComponent(input + ", Long Beach, CA");
 
+    if (input === "") {
+        alert("Enter a location.")
+    }
     document.getElementById("map").src =
         `https://www.google.com/maps?q=${search}&output=embed`;
 
