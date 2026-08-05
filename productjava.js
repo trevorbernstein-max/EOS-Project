@@ -39,3 +39,23 @@ function add() {
 } 
 
 submitbutton.addEventListener('click', add);
+
+
+
+function searchLocation() {
+
+    let input = document.getElementById("locInput").value;
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+
+
+    let search = encodeURIComponent(input + ", Long Beach, CA");
+
+    document.getElementById("map").src =
+        `https://www.google.com/maps?q=${search}&output=embed`;
+
+}
+
+

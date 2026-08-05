@@ -83,6 +83,7 @@ nav ul img {
     font-size: 40px;
     color: #5791e2;
     margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 #aboutsections p {
@@ -134,4 +135,15 @@ nav ul img {
 
 #imglink {
     margin-left: -40px;
+}
+
+#me {
+    width: 600px;
+    border-radius: 25px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 1200px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+
 }
